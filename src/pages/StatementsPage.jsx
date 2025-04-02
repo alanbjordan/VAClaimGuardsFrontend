@@ -15,7 +15,7 @@ import {
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
-// 1) Import your local mock data and functions
+// 1) local mock data and functions
 import { getMockTagsData, generateClaimSummary } from '../data/mockStatements';
 
 export default function StatementsPage() {
