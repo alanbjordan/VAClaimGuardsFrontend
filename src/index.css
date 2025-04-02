@@ -20,7 +20,7 @@ a:hover {
 }
 
 body {
-  margin: 0; /* CssBaseline also sets this, but it's okay to be redundant */
+  margin: 0; /* CssBaseline also sets this */
   /* display: flex; */
   place-items: center;
   min-width: 320px;
