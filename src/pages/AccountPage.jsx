@@ -14,7 +14,7 @@ import SupportModal from '../components/Sidebar/SupportModal';
 
 // Example base URL from your .env or config
 const API_BASE_URL =
-  import.meta.env.VITE_API_URL || 'https://vaclaimguard.azurewebsites.net';
+  import.meta.env.VITE_API_URL || 'https://website.azurewebsites.net'; dummy url
 
 function AccountPage() {
   // -- User info state
