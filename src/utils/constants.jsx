@@ -5,7 +5,7 @@ export const SIDEBAR_WIDTH = {
   
   export const STATUS_COLORS = {
     CURRENT: {
-      // Replace with a hex or a theme reference if needed
+      
       BG: '#EFF6FF', // instead of bg-blue-50
       TEXT: '#1D4ED8' // instead of text-blue-700
     },
