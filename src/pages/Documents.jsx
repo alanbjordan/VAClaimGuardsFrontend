@@ -26,7 +26,7 @@ import { DocumentHeader } from '../components/Documents/DocumentHeader';
 import { RecentDocuments } from '../components/Documents/RecentDocuments';
 import { DocumentTable } from '../components/Documents/DocumentTable';
 
-// -- DocumentUpload (your custom component)
+// -- DocumentUpload
 import DocumentUpload from '../components/Dashboard/DocumentUpload.jsx';
 
 export default function Documents() {
