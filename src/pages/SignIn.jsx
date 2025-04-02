@@ -46,8 +46,7 @@ export default function SignIn() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // If you want to keep minimal validation, you can. 
-  // Otherwise, remove it entirely to allow any credentials.
+
   const validateInputs = () => {
     const errors = {};
     if (!formData.email) {
@@ -64,7 +63,6 @@ export default function SignIn() {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    // Optional: if you still want some trivial validation
     if (!validateInputs()) return;
 
     setLoading(true);
@@ -93,7 +91,7 @@ export default function SignIn() {
     }
   };
 
-  // DUMMY Google handlers (remove or keep for UI)
+  // DUMMY Google handlers 
   const handleGoogleSuccess = async (credentialResponse) => {
     setLoading(true);
     try {
