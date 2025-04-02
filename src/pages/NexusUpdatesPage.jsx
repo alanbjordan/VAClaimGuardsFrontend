@@ -8,12 +8,10 @@ import {
   Skeleton,
   Paper,
 } from '@mui/material';
-// import axios from 'axios'; // <-- No longer needed if we’re just using mock data
 import UpdateCard from '../components/Dashboard/Updates/UpdateCard';
 import ExploreModal from '../components/Dashboard/Updates/ExploreModal';
 
 // ----- MOCK DATA -----
-// Adjust to match the shape your UI needs (e.g., nexus_tags_id, discovered_at, conditions, etc.)
 const MOCK_UPDATES = [
   {
     nexus_tags_id: 'fakeTag1',
