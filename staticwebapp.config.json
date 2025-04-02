@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "route": "/static/*",
+      "serve": "/static/*"
+    },
+    {
+      "route": "/assets/*",
+      "serve": "/assets/*"
+    },
+    {
+      "route": "/favicon.ico",
+      "serve": "/favicon.ico"
+    },
+    {
+      "route": "/*.js",
+      "serve": "/*.js"
+    },
+    {
+      "route": "/*.css",
+      "serve": "/*.css"
+    },
+    {
+      "route": "/*.png",
+      "serve": "/*.png"
+    },
+    {
+      "route": "/*.svg",
+      "serve": "/*.svg"
+    },
+    {
+      "route": "/*",
+      "rewrite": "/index.html"
+    }
+  ]
+}
