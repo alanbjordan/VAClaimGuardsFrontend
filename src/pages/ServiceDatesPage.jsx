@@ -39,7 +39,6 @@ export default function ServiceDatesPage() {
   const [errors, setErrors] = useState([]);
   const [showToast, setShowToast] = useState(false);
 
-  // If you still need to retrieve some "UUID" or user info from localStorage, do it here
   const storedUserUuid = localStorage.getItem('userUUID') || '';
 
   useEffect(() => {
@@ -138,8 +137,6 @@ export default function ServiceDatesPage() {
       // ************************************
       localStorage.setItem('servicePeriods', JSON.stringify(formData.servicePeriods));
 
-      // If you also want to store documents in localStorage, you can:
-      // localStorage.setItem('documents', JSON.stringify(formData.documents));
 
       // Mimic successful save
       setShowToast(true);
