@@ -6,7 +6,6 @@ import Updates from '../components/Dashboard/Updates.jsx';
 import TrustBanner from '../components/Dashboard/TrustBanner.jsx';
 
 // 1) Define some fake "feedUpdates" data for display
-// Adjust these objects to match whatever shape your UI expects
 const MOCK_FEED_UPDATES = [
   {
     nexus_tags_id: 'tag1',
@@ -86,11 +85,10 @@ const Dashboard = () => {
           {/* Sample banner, or remove if not needed */}
           <TrustBanner />
 
-          {/* Pass your updates and loading to the Updates component */}
+          {/* Pass  updates and loading to the Updates component */}
           <Updates
             updates={feedUpdates}
             isLoading={isLoading}
-            // If you want the "View All" button to do something different:
             onViewAll={fetchFullData}
           />
         </Stack>
