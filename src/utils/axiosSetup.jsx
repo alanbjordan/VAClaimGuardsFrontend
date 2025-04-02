@@ -2,12 +2,11 @@
 
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || "https://vaclaimguard.azurewebsites.net"; // or wherever your base API URL is
+const API_URL = import.meta.env.VITE_API_URL || "https://website.azurewebsites.net"; // dummy url
 
 // Create an Axios instance
 const api = axios.create({
   baseURL: API_URL
-  // You could set other defaults here if you want
 });
 
 // A helper to refresh the token
