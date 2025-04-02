@@ -1,4 +1,4 @@
-// If this is a duplicate of constants, either remove it or differentiate it.
+
 export const SIDEBAR_WIDTH = {
     COLLAPSED: '4rem',
     EXPANDED: '16rem'
