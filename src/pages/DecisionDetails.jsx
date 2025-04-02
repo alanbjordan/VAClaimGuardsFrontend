@@ -15,25 +15,17 @@ import {
   TextField,
 } from '@mui/material';
 import { ChevronLeft, ArrowUp, Send, Highlighter } from 'lucide-react';
-
-// 1) Import from your local mock data
 import { getDecisionById } from '../data/mockDecisions';
-
-// 2) If you use AuthContext (e.g., to handle credits), keep it; otherwise, remove it
 import { AuthContext } from '../AuthContext';
-
-// 3) If you have custom hooks for highlights, notes, search
 import { useHighlights } from '../hooks/useHighlights';
 import { useNotes } from '../hooks/useNotes';
 import { useSearch } from '../hooks/useSearch';
-
-// 4) Re-usable components
 import { DecisionViewer } from '../components/DecisionDetails/DecisionViewer';
 import { NotesPanel } from '../components/DecisionDetails/NotesPanel';
 import { SearchPanel } from '../components/DecisionDetails/SearchPanel';
 import { SummaryModal } from '../components/DecisionDetails/SummaryModal';
 
-/** Helper function to parse a .txt file name from a URL (if you want to preserve it) */
+/** Helper function to parse a .txt file name from a URL */
 function parseCitationFromUrl(fullUrl) {
   if (!fullUrl) return '';
   const fileName = fullUrl.split('/').pop() || '';
