@@ -2,18 +2,6 @@
 
 VAClaimGuard Frontend is the user interface component for managing and tracking VA claim information. Built using modern web technologies, it delivers a responsive and accessible experience tailored for users interacting with VA claim processes.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-
 ## Overview
 
 This project is designed as the frontend for VAClaimGuard, streamlining the management of VA claims through a clean and user-friendly interface. The application is built with modern JavaScript practices and styled using Tailwind CSS to ensure a fast, responsive, and mobile-first experience.
